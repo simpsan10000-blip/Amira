@@ -1,0 +1,32 @@
+﻿#home.active .right {
+    flex: 3;
+    animation: small-tab-in 2s;
+}
+#home.active .left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+#home.active .pfp {
+    border-radius: 35px;
+    outline: 4px solid var(--c8);
+    width: 100%;
+    animation: small-tab-in 2s;
+}
+#home.active .thingy {
+    text-align: center;
+    font-size: 1.25rem;
+    animation: small-tab-in 2.5s;
+}
+#home.active .big {
+    display: block;
+    font-size: 2em;
+    animation: small-tab-in 2s;
+}
+#home.active .oops {
+    text-align: center;
+    margin: 35px;
+    opacity: 0.25;
+}
